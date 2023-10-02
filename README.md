@@ -34,10 +34,6 @@ We use KITTI dataset which is available in this link (http://www.cvlibs.net/data
 recognized. We can see that our perceptual recognition effect is good, and we have good recognition processing on the edges of two different types of objects.
 <div align=center><img src="https://github.com/WangHewei16/FesygNet-for-Autonomous-Driving-Recognition/blob/main/Figure2-qualitative.png?raw=true" width="500"/></div>
 
-* `Figure3,4,5,6-quantitative.jpg`: This figure shows the experiment about the accuracy’s changes of different models in four different scene modes (cars,
-human, road and All mode) with the increase of training time. We can see that at the end of the training, our proposed FesygNet has far surpassed other comparison methods. In the “All mode” scene, FesygNet ranks first among these methods in the whole process, which can prove the superiority of our method in accuracy and training optimization.
-<div align=center><img src="https://github.com/WangHewei16/FesygNet-for-Autonomous-Driving-Recognition/blob/main/Figure3-quantitative.jpg?raw=false" width="250"/><img src="https://github.com/WangHewei16/FesygNet-for-Autonomous-Driving-Recognition/blob/main/Figure4-quantitative.jpg?raw=false" width="250"/></div>
-<div align=center><img src="https://github.com/WangHewei16/FesygNet-for-Autonomous-Driving-Recognition/blob/main/Figure5-quantitative.jpg?raw=false" width="250"/><img src="https://github.com/WangHewei16/FesygNet-for-Autonomous-Driving-Recognition/blob/main/Figure6-quantitative.jpg?raw=false" width="250"/></div>
 
 ### Experiment table
 * `Table1.png`: This table presents the results of ablation experiments. We can see that the overall model is better than the other two components, and the GhostNet model is also better than YOLOv3 in most cases, which proves that the combination of components in our system model can significantly improve the perceptual accuracy.
